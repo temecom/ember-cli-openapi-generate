@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-openapi-generate",
-  "version": "0.0.15",
+  "version": "0.0.16",
   "description": "Automatically generate Ember models from OpenAPI definitions.",
   "keywords": [
     "ember-addon",
@@ -34,15 +34,15 @@
   "devDependencies": {
     "broccoli-asset-rev": "^2.4.5",
     "ember-ajax": "^2.4.1",
-    "ember-cli": "2.12.1",
-    "ember-cli-dependency-checker": "^1.3.0",
-    "ember-cli-eslint": "^3.0.0",
-    "ember-cli-htmlbars-inline-precompile": "^0.3.6",
-    "ember-cli-inject-live-reload": "^1.4.1",
-    "ember-cli-qunit": "^3.1.0",
-    "ember-cli-shims": "^1.0.2",
-    "ember-cli-sri": "^2.1.0",
-    "ember-cli-uglify": "^1.2.0",
+    "ember-cli": "~3.21.2",
+    "ember-cli-app-version": "^3.2.0",
+    "ember-cli-babel": "^7.22.1",
+    "ember-cli-dependency-checker": "^3.2.0",
+    "ember-cli-htmlbars": "^5.3.1",
+    "ember-cli-inject-live-reload": "^2.0.2",
+    "ember-cli-openapi-generate": "^0.0.15",
+    "ember-cli-sri": "^2.1.1",
+    "ember-cli-terser": "^4.0.0",
     "ember-data": ">=2.0.0",
     "ember-disable-prototype-extensions": "^1.1.0",
     "ember-export-application-global": "^1.0.5",
@@ -53,7 +53,7 @@
     "loader.js": "^4.2.3"
   },
   "engines": {
-    "node": "^4.5 || 6.* || >= 7.*"
+    "node": "10.* || >= 12"
   },
   "ember-addon": {
     "configPath": "tests/dummy/config"
